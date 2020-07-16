@@ -25,3 +25,10 @@ def kesha_maker (array)
     sign
   end
 end
+
+def find_a (array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
+
